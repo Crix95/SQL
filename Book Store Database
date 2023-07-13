@@ -1,0 +1,18 @@
+CREATE TABLE book_store (id INTEGER PRIMARY KEY, genre TEXT, title TEXT, stock INTEGER, price INTEGER);
+INSERT INTO book_store VALUES (1, "History", "Facts of Rome", 10, 15);
+INSERT INTO book_store VALUES (2, "Fiction", "Mouse Chronicles", 6, 12);
+INSERT INTO book_store VALUES (3, "Non-Fiction", "U.S. Presidents", 9, 15);
+INSERT INTO book_store VALUES (4, "History", "Ages of Man", 14, 20);
+INSERT INTO book_store VALUES (5, "Tech", "History of Computers", 10, 20);
+INSERT INTO book_store VALUES (6, "Fiction", "Tales of Elarn", 9, 15);
+INSERT INTO book_store VALUES (7, "Non-Fiction", "Biography of Alexander the Great", 20, 25);
+INSERT INTO book_store VALUES (8, "Auto", "Modern Roadsters", 14, 15);
+INSERT INTO book_store VALUES (9, "Tech", "SQL Handbook", 12,10);
+INSERT INTO book_store VALUES (10, "History", "Bronze Age", 1, 15);
+INSERT INto book_store VALUES (11, "Hobby", "Intro to Model Trains", 22, 10);
+INSERT INTO book_store VALUES (12, "Hobby", "Woodworking Basics", 25, 12);
+INSERT INTO book_store VALUES (13, "Fiction", "Dragon Riders", 10, 20);
+INSERT INTO book_store VALUES (14, "Tech", "Data Analysis", 10, 15);
+INSERT INTO book_store VALUES (15, "Non-Fiction", "Medieval Europe", 17, 20);
+SELECT * FROM book_store ORDER BY Price ASC;
+SELECT stock FROM book_store ORDER BY stock DESC
